@@ -51,10 +51,16 @@ input, button{
   margin: 0 0 0 6px;
   text-align: center;
 }
+.error__div{
+  display: none;
+  text-align: center;
+  font-weight: 400;
+}
 .info__div{
   text-align: center;
   font-size: 70px;
   margin-bottom: 20px;
+  display: none;
 }
 .city-name{
   font-weight: 800;
