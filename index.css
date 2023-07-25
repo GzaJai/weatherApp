@@ -54,6 +54,7 @@ input, button{
 .info__div{
   text-align: center;
   font-size: 70px;
+  margin-bottom: 20px;
 }
 .city-name{
   font-weight: 800;
@@ -65,13 +66,6 @@ input, button{
   margin: 20px 0 0;
   display: flex;
   justify-content: center;
-}
-.current-status__div i{
-  color:#f9cf00;
-  font-size: 100px;
-}
-.clouds{
-  color: #FFF;
 }
 footer{
   width: 100%;
