@@ -63,6 +63,8 @@ input, button{
 }
 .current-status__div{
   margin: 20px 0 0;
+  display: flex;
+  justify-content: center;
 }
 .current-status__div i{
   color:#f9cf00;
