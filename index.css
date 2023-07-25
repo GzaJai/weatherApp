@@ -37,6 +37,9 @@ section{
   display: flex;
   justify-content: center;
 }
+input, button{
+  font-family: inherit;
+}
 .search-bar{
   width: 80%;
   border-radius: 5px;
