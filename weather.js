@@ -9,6 +9,7 @@ async function checkWeather (){
 
   if(response.status == 404){
     document.querySelector(".error__div").style.display = "block";
+    document.querySelector(".info__div").style.display = "none";
   }
 
   console.log(data);
@@ -32,6 +33,7 @@ async function checkWeather (){
 
 
     document.querySelector(".info__div").style.display = "block";
+    document.querySelector(".error__div").style.display = "none";
 }
 
 const btn = document.querySelector(".search-bar__btn");
